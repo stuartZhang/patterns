@@ -102,8 +102,8 @@ fn unique_ids_iter<I>(iterator: I) -> HashSet<u64>
 ```
 
 Lenses, however, allow the code supporting customer ID to be moved from the
-_type_ to the _accessor function_.
-Rather than implementing a trait on each type, all matching structures can
+_struct_ to the _accessor function_.
+Rather than implementing a trait on each _struct_, all matching structures can
 simply be accessed the same way.
 
 While the Rust language itself does not support this (type erasure is the
