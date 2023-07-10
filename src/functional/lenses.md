@@ -47,7 +47,7 @@ Another one contains the account information:
 Notice that both types have a customer ID number which corresponds to a person.
 How would a single function handle both records of different types?
 
-In Rust, a `struct` could represent each of these types, and a trait would have
+In Rust, a type could represent each of these `struct`s, and a trait would have
 a `get_customer_id` function they would implement:
 
 ```rust
